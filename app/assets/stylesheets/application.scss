@@ -11,3 +11,18 @@
 // Your CSS partials
 @import "components/index";
 @import "pages/index";
+
+@import 'mapbox-gl/dist/mapbox-gl';
+@import '@mapbox/mapbox-gl-geocoder/dist/mapbox-gl-geocoder';
+
+
+// Should go in components _map.scss
+
+.color-red {
+  color: red;
+}
+
+.background-yellow {
+  background-color: yellow;
+  margin: 0;
+}
